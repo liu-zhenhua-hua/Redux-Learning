@@ -11,7 +11,7 @@ function operaCount(preState=initState,action){
             console.log(newState);
             return newState;
         case DECREMENT:
-            newState = preState + data;
+            newState = preState - data;
             console.log(newState);
             return newState;
         default:
