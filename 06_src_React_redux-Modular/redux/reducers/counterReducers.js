@@ -1,4 +1,4 @@
-import {INCREMENT,DECREMENT} from './actionTypes';
+import {INCREMENT,DECREMENT} from '../actionTypes';
 
 let initState=0
 function operaCount(preState=initState,action){
